@@ -1,0 +1,21 @@
+//
+   Created by 8321 on 3/30/17.
+
+html
+    head
+        title Bootstrap Example
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+        script(src='/javascripts/home.js')
+    body
+
+        .container
+            form.col-sm-3
+                .form-group
+                    label(for='url') URL for Recipe:
+                    |
+                    input#url.form-control(type='text')
+                button#submit.btn.btn-default(type='button') Submit
